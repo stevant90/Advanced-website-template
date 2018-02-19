@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee|Slabo+27px');
+
+$title-font: 'Mukta Mahee', sans-serif;
+$text-font: 'Slabo 27px', serif;
+$navbar-color: rgb(12, 12, 12);
+$btn-card-color:  hsl(13, 88%, 48%);
+$footer-color: rgb(24, 24, 24);
+$card-color: rgb(102, 73, 230);
+$letter-color: white;
+$background-color: white;
+$text-color: rgb(24, 8, 39);
+$footer-letter: rgb(96, 82, 104);
+
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+     -ms-border-radius: $radius;
+     border-radius: $radius;
+}

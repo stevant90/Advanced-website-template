@@ -1,0 +1,88 @@
+header {
+
+    position: relative;
+
+    @media screen and (min-width: 992px) {
+
+        height: 600px;
+    }
+    
+    button {
+
+        margin-right: 1em;
+        border: 1px solid $card-color;
+        width: 24%;
+        background-color: transparent;
+        @include border-radius(1em);
+
+        @media screen and (min-width: 768px) {
+
+             padding: .3em 2em;   
+        }
+
+        @media screen and (min-width: 992px) {
+
+            width: 14%;
+        }
+    }
+
+    button:hover {
+
+        background-color: $card-color;
+    }
+
+    img {
+
+        width: 100%;
+
+        @media screen and (min-width: 992px) {
+
+            height: 600px;
+        } 
+    }
+
+    p {
+
+        margin-bottom: 0;
+        font-size: 1.4em;
+    
+        @media screen and (min-width: 768px) {
+
+            font-size: 1.7em;
+        }
+    
+        @media screen and (min-width: 992px) {
+
+            font-size: 2em;
+        }
+    }
+}
+    
+#header-div {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+#table {
+    
+    display: table;
+    width: 100%;
+    height: 100%;   
+}
+
+#table div {
+
+    display: table-cell;
+    text-align: center;
+    color: $letter-color;   
+    vertical-align: middle;
+}
+
+
+
+

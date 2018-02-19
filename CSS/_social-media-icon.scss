@@ -1,0 +1,16 @@
+.social-media-icons a::before {
+
+    font-family: "Font Awesome 5 Brands";
+}
+ 
+.social-media-icons a[href*="twitter.com"]::before { content: "\f099"};
+.social-media-icons a[href*="facebook.com"]::before { content: "\f39e"};
+.social-media-icons a[href*="linkedin.com"]::before { content: "\f0e1"};
+.social-media-icons a[href*="instagram.com"]::before { content: "\f16d"};
+
+.support-wrapper a::after {
+
+    font-family: "Font Awesome 5 Free";
+    content: "\f101";
+    margin-left: .2em;
+}

@@ -1,0 +1,110 @@
+.main-card {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-top: .5em;
+    margin-bottom: 2em;
+
+    @media screen and (min-width: 992px) {
+        
+        position: relative;
+        top: -100px;
+        width: 70%;
+        -webkit-box-shadow: 32px -36px 26px -28px rgba(156,79,227,0.53);
+        box-shadow: 32px -36px 26px -28px rgba(156,79,227,0.53);   
+        
+    }
+          
+}
+
+.squad-icon-section {
+
+    background-color: $card-color;
+    color: $letter-color;    
+    border-radius: .4em .4em 0 0; 
+    height: 30%;
+    
+    ul {
+        
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        text-align: center;
+        
+    }
+    
+    li {
+        
+        width: 50%;
+        padding: .5em 0 .5em 0;
+
+        @media screen and (min-width: 576px) {
+            
+            width: 25%;
+        }
+    }
+
+        @media screen and (min-width: 992px) { 
+
+          padding: 1em 0 .5em 0;
+        }   
+}
+
+.squad-icon {
+
+    font-size: 1.5em;
+
+    @media screen and (min-width: 768px) {
+     
+        font-size: 1.8em;
+       
+    }
+}
+
+.text {
+
+    font-size: 1.5em;
+    color: $text-color;
+
+    @media screen and (min-width: 768px) {
+
+        font-size: 1.8em;
+    }
+
+    span {
+
+    display: block;
+    font-size: 60%;
+    color: $letter-color;
+
+    }
+}
+
+.squad-text {
+
+    color: black;
+    border: .5px solid rgba(128, 128, 128, 0.226);
+    padding: 1em;
+
+    @media screen and(min-width: 992px) {
+
+        padding: 1.3em;
+    }
+
+    span {
+
+        color: $card-color;
+        font-weight: 700;
+        font-size: 1.1em;
+
+        @media screen and (min-width: 992px) {
+            font-size: 1.3em;
+        }
+    }
+}
+
+
